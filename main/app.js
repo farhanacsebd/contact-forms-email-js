@@ -22,10 +22,17 @@ var templateParams = {
 };
 
 emailjs.send('catseller', 'catsellerId', templateParams)
-    .then(function(response) {
+    /* .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
     }, function(error) {
        console.log('FAILED...', error);
-    });
+    }); */
+    Swal.fire({
+        position: 'top-center',
+        icon: 'success',
+        title: 'Your work has been saved',
+        showConfirmButton: false,
+        timer: 1500
+      })
 }
  
