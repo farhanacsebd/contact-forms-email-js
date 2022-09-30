@@ -14,7 +14,7 @@
 
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to bottom right, rgb(151, 197, 255), rgb(44, 93, 200));
+    background-image: linear-gradient(to right top, #f4044d, #e40064, #cc0079, #ae0489, #8a2294, #a12193, #b62290, #c9268d, #ff436e, #ff7f48, #ffc01f, #f7ff34);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,7 +58,7 @@ form input, form textarea{
 form button {
 
     padding: 15px;
-    background: rgb(236, 65, 94);
+    background: #f4044d;
     color: #fff;
     font-size: 18px;
     border: 0;
